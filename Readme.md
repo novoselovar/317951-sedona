@@ -1,7 +1,7 @@
-# Личный проект «Седона»
+﻿# Личный проект «Седона»
 
 * Студент: [Margarita Novoselova](https://up.htmlacademy.ru/htmlcss/22/user/317951).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Распономарев](https://htmlacademy.ru/profile/id64492).
 
 ---
 
