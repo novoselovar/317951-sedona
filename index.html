@@ -3,65 +3,77 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header>
+    <div class="container">
+    <header class="header">
       <nav>
-        <a><img src="" alt="Sedona" width="" height="">Logo</a>
-        <ul>
-            <li>Информация</li>
-            <li>Фото и видео</li>
-            <li>Карта штата</li>
-            <li>Гостиницы</li>
+        <a class="logo"><img src="img/logo.png" alt="Sedona" width="" height=""></a>
+        <ul class="menu-list">
+            <li class="menu-item"><a href="" class="menu-link">Информация</a></li>
+            <li class="menu-item"><a href="" class="menu-link">Фото и видео</a></li>
+            <li class="menu-item"><a href="" class="menu-link">Карта штата</a></li>
+            <li class="menu-item"><a href="" class="menu-link">Гостиницы</a></li>
         </ul>
       </nav>   
     </header>
 
-    <section>
-      <img src="" alt="Welcome to gourgeous Sedona. Because The Great Canyon sucks!" width="" height="">
+    <section class="welcome-section">
+      <img src="img/welcome.png" alt="Welcome to gourgeous Sedona. Because The Great Canyon sucks!" width="459" height="353">
     </section>
 
-    <section>
-      <h3><pre>Седона – небольшой городок в Аризоне,
-заслуживающий большего!</pre></h3>
+    <section class="advantages">
+      <h3 class="advantages-title title">Седона – небольшой городок в Аризоне, заслуживающий большего!</h3>
       <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
     </section>
 
     <section>
-      <ul>
-          <li>
-              <h3>Настоящий городок</h3>
+      <ul class="row">
+          <li class="column-small column">
+              <h3 class="title">Настоящий городок</h3>
               <p>– №1 –</p>
-              <p></p>Седона – не аттракцион для туристов, там течет своя жизнь
+              <p>Седона – не аттракцион для туристов, там&#160;течет своя жизнь</p>
           </li>
-          <li>
-            <h3>Там есть мост дьявола</h3>
+          <li class="column-small column">
+            <h3 class="title">Там есть мост дьявола</h3>
             <p>– №2 –</p>
             <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           </li>
-          <li>
-            <h3>Небольшая площадь</h3>
+          <li class="column-small column">
+            <h3 class="title">Небольшая площадь</h3>
             <p>– №3 –</p>
             <p>Все достопримечательности находятся очень близко</p>
           </li>
-          <li>
-            <h3>Красивая дорога</h3>
+          <li class="column-small column">
+            <h3 class="title">Красивая дорога</h3>
             <p>– №4 –</p>
-            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            <p>Ехать в Седону из Лас-Вегаса совсем не&#160;скучно!</p>
           </li>
-            <h3>Мало туристов</h3>
+          <li class="column-small column">
+            <h3 class="title">Мало туристов</h3>
             <p>– №5 –</p>
-            <p>Большинство едет в Гранд Каньон и толпится там</p>      
+            <p>Большинство едет в Гранд Каньон и&#160;толпится там</p>      
           </li>
-          <li><img src=""></li>
-          <li><img src=""></li>
-          <li>
-              <img src="">
-              <h3>Жилье</h3>
+          <li class="column-big column"><img src="img/pic1.png" class="column-image"></li>
+          <li class="column-big column"><img src="img/pic2.png" class="column-image"></li>
+          <li class="column-small column">
+              <img src="img/home.svg">
+              <h3 class="title">Жилье</h3>
               <p></p>
           </li>
-          <li>Еда</li>
-          <li>Сувениры</li>
+          <li class="column-small column">
+              <img src="img/meal.svg">
+              <h3 class="title">Еда</h3>
+              <p></p>
+          </li>
+          <li class="column-small column">
+              <img src="img/present.svg">
+              <h3 class="title">Сувениры</h3>
+              <p></p>
+          </li>
       </ul>
     </section>
 
@@ -104,5 +116,6 @@
     
     <p>HTML Academy</p> 
     </footer>
+  </div>
   </body>
 </html>
